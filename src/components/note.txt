@@ -1,0 +1,38 @@
+Pages and components(Folders) are for all upcoming projects
+
+
+Asynchronous code handle
+'''''''''''''''''''''''''
+promise - .then, catch
+
+ async await:
+ >To avoid the chaining process in react we are using async await
+ >it will act as more synchronous manner
+ > It is a feature of javaScript not React's
+
+ Drawbacks of fetch():
+ '''''''''''''''''''''
+ >only providing responses data(data we are asking),not getting other information code(Status code, url...)
+ >wont support for all Browsers(Works only for some commonly used Browsers like Chrome,Edge)
+ >very low Error handling capacity
+
+ >Solution: Axios
+
+ Axios:
+ ''''''
+ >It is a dedicated library for React For the API calling
+ >It fullfill all the Drawbacks in using Fetch()
+ >that is:
+    - Provide all information about API call
+    - support all Browsers
+    - Faster and accurate
+>basic methods in axios:-(http methods(CRUD))
+    get - retrieve data
+    post - create data
+    patch - partially update 
+    put - fully update
+    delete - delete data
+
+For installing anything in React Terminal:
+    npm i 'libraryName'
+    >dont forget to open new terminal for installing
